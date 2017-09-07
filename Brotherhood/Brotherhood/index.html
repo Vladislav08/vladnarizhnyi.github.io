@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body >
+	<div class="social container-fluid hidden-xs hidden-sm">
+		<li>
+			<span>Замовити зворотній дзвінок</span>
+			<a href="#"></a>
+		</li>
+		<li>
+			<span>Отримати подарунок</span>
+			<a href="#"></a>
+		</li>
+		<li>
+			<span>Надіслати e-mail</span>
+			<a href="#"></a>
+		</li>
+	</div>
+	<header>
+		<div class="container-fluid logo">
+			<div class="container">
+				<a href="#"><img src="images/logo.png" alt="logo" class="col-xs-12 col-md-4"></a>
+				<ul class="lang col-xs-12 col-md-offset-1 col-md-3">
+					<li><a href="#">Рус</a></li>
+					<li><a href="#">Укр</a></li>
+					<li><a href="#">Eng</a></li>
+				</ul>
+				<div class="col-xs-12 col-md-3 pull-right basket">
+					<a href="#" class="sprite"></a>
+					<div><span>Кошик:</span> 27 товарів</div>
+				</div>
+			</div>
+		</div>
+		<div id="nav"  class="container-fluid">
+			<div class="container ">
+				<nav class="navbar navbar-default menu row">
+					    <div class="navbar-header head-menu">
+					     	 <button type="button" class="navbar-toggle collapsed knopka-nav" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+					      	</button>
+					    </div>
+
+					    <div class="collapse navka navbar-collapse" id="bs-example-navbar-collapse-1">
+					      	<ul id="menu" class="nav navbar-nav navigation col-md-12">
+					        	<li class="col-md-2"><a href="#">Новини <span class="sr-only">(current)</span></a></li>
+					        	<li class="col-md-2"><a href="#">Магазин</a></li>
+					        	<li class="col-md-2"><a href="#">Дилери</a></li>
+					        	<li class="col-md-2"><a href="#">Доставка</a></li>
+					        	<li class="col-md-2"><a href="#">Про Нас</a></li>
+					        	<li class="col-md-2"><a href="#">Контакти</a></li>
+					        </ul>
+					    </div>
+				</nav>
+			</div>
+		</div>
+		<div class="container-fluid">
+		  <!-- Nav tabs -->
+		  <ul class="nav nav-tabs navigat col-xs-offset-3 col-sm-offset-0 col-md-offset-4" role="tablist">
+		   
+		    <li role="presentation" class="knopka active col-xs-offset-1 col-md-offset-0 "><a href="#tactical" aria-controls="tactical" role="tab" data-toggle="tab">tactical</a></li>
+		    <li role="presentation" class="knopka col-xs-offset-1 col-md-offset-0 "><a href="#highland" aria-controls="highland" role="tab" data-toggle="tab">highland</a></li>
+		    <li role="presentation" class="knopka col-xs-offset-1 col-md-offset-0 "><a href="#simple" aria-controls="simple" role="tab" data-toggle="tab">simple</a></li>
+		  </ul>
+
+		  <!-- Tab panes -->
+		  <div class="tab-content container-fluid row">
+		    <div role="tabpanel" class="tab-pane active tact row" id="tactical">
+				<div class=" container ">
+					<div class="text col-md-4">
+						<p class="">Серія</p>
+						<p class="">Tactical</p>
+						<p class=""><span>Власна розробка</span> українських військових, що увібрала в себе <span>найкраще</span> з нині можливого:</p>
+						<div class="galka col-md-12">
+							<div><span></span>якість тканин і пошиву</div>
+							<div><span></span>зручність крою</div>
+							<div><span></span>функціональність у використанні</div>
+						</div>
+						<a href="#" class="col-md-12 catalog"></a>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-7">
+						<img class="sold" src="images/soldiers.png" alt="">
+					</div>
+				</div>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="highland">...</div>
+		    <div role="tabpanel" class="tab-pane" id="simple">...</div>
+		  </div>
+		</div>
+	</header>
+	<div id="testCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Слайды карусели -->
+		<div class="carousel-inner tkan  container-fluid">
+			<!-- Слайд 1 -->
+			<div class="item active container carcont">
+				<h3 class="">Тканина</h3>
+				<p class="cwet col-xs-offset-1 col-md-offset-1">Тип тканини: <span>кордура</span></p>
+				<p class="cwet col-xs-offset-1 col-md-offset-1">Тканина кордура - нейлонова водонепроникна тканина з підвищеною стійкістю до будь-яких механічних впливів. PU просочення і особливе плетіння ниток забезпечують повну водонепроникність. Тканина стійка до перепадів температур і впливу ультрафіолету</p>
+				<p class="cwet col-xs-offset-1 col-md-offset-1"><span>переваги : </span>вологостійкість, вогнестійкість</p>
+				<div class="cwet col-xs-offset-1 col-md-offset-1">
+					<p>Доступні кольори:</p>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="col-md-offset-1">
+					<a href="#" class="col-md-12 catalog"></a>
+				</div>
+			</div>
+			<!-- Слайд 2 -->
+			<!-- <div class="item">
+				<h2>Заголовок 2</h2>
+				<p>Дополнительная информация слайда 2</p>
+				<button class="btn btn-success btn-lg">Какая-то кнопка</button>
+			</div> -->
+		</div>
+
+		<!-- Навигация карусели (следующий или предыдущий слайд) -->
+		<!-- Кнопка, переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
+		<a class="left carousel-control" href="#testCarousel" role="button" data-slide="prev">
+			<span class="leftcar"></span>
+		</a>
+		<!-- Кнопка, переход на следующий слайд с помощью атрибута data-slide="next" -->
+		<a class="right carousel-control" href="#testCarousel" role="button" data-slide="next">
+			<span class="rightcar"></span>
+		</a>
+	</div>
+	<div class="container-fluid">
+		<div class="container rabota">
+			<h3>Як ми працюємо</h3>
+			<p class="hidden-xs hidden-sm">1</p>
+			<p class="col-md-offset-7">спочатку <span>ідея</span></p>
+			<div id="krest" class="visible-md visible-lg"></div>
+			<img src="images/pracuemo1.jpg" class="img-circle praca col-md-offset-1 visible-md visible-lg" alt="">
+			<div class="galka2 col-md-offset-8">
+				<div>
+					<span class="col-md-1"></span>
+					<div class="col-md-offset-2">Усі моделі розробляються українськими військовими, тому моделі досконалі та зручні</div>
+				</div>
+				<div>
+					<span class="col-md-1"></span>
+					<div class="col-md-offset-2">Кожен елемент моделі знаходиться на своєму функціональному місці, для нього підібраний найкращий крій та матеріали, використовується найдосконаліша фурнітура</div>
+				</div>
+				<div>
+					<span class="col-md-1"></span>
+					<div class="col-md-offset-2">Ідея постійно вдосконалюється, враховуються всі помилки, завдяки налагоженому діалогу з реальним користувачем форми</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid grbg">
+		<div class="container stvor">
+			<p class="col-xs-12 col-md-8">потім <span>створення речі</span></p>
+			<p class="hidden-xs hidden-sm pull-right ">2</p>
+			<div id="krest2" class="visible-md visible-lg"></div>
+			<img src="images/stvorennya.jpg" class="img-circle secondcircle col-md-offset-5 visible-md visible-lg" alt="">
+			<div class="galka3 col-md-5">
+				<div>
+					<span class="col-md-1"></span>
+					<div class="col-md-offset-1">Усі моделі розробляються українськими військовими, тому моделі досконалі та зручні</div>
+				</div>
+				<div>
+					<span class="col-md-1"></span>
+					<div class="col-md-offset-1">Кожен елемент моделі знаходиться на своєму функціональному місці, для нього підібраний найкращий крій та матеріали, використовується найдосконаліша фурнітура</div>
+				</div>
+				<div>
+					<span class="col-md-1"></span>
+					<div class="col-md-offset-1">Ідея постійно вдосконалюється, враховуються всі помилки, завдяки налагоженому діалогу з реальним користувачем форми</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid\">
+		<div class="container test">
+			<p class="hidden-xs hidden-sm">3</p>
+			<p class="col-md-offset-7">і нарешті <span>тестування</span></p>
+			<div id="krest3" class="visible-md visible-lg"></div>
+			<img src="images/testuvannya.jpg" class="img-circle testimage col-md-offset-1 visible-md visible-lg" alt="">
+			<div class="galka4 col-md-offset-8">
+				<div>
+					<span class="col-md-1"></span>
+					<div class="col-md-offset-2">Одяг тестується як на полігонах, так і у реальних умовах АТО</div>
+				</div>
+				<div>
+					<span class="col-md-1"></span>
+					<div class="col-md-offset-2">Постійно забирається статистика відгуків та побажань</div>
+				</div>
+				<div>
+					<span class="col-md-1"></span>
+					<div class="col-md-offset-2">Всі доцільні відгуки користувачів нашої продукції завжди трансформуються у нові ідеї</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bgkart hidden-xs col-md-12">
+		<div class="container karta">
+		<h3 class="center">Наші дилери</h3>
+		</div>
+    	<div id="map" class=""></div>
+    	<script>
+      		function initMap() {
+      			var kharkiv = new google.maps.LatLng(49.995957,36.215463);
+      			var poltava =new google.maps.LatLng(49.623455, 34.527670);
+      			var chernigov =new google.maps.LatLng(51.488347, 31.277779);
+      			var summi =new google.maps.LatLng(50.960958, 34.774989);
+      			var lugansk =new google.maps.LatLng(48.554423, 39.284813);
+      			var kiev =new google.maps.LatLng(50.454589, 30.521042);
+      			var lvov =new google.maps.LatLng(49.829396, 24.044167);
+      			var zhitomir =new google.maps.LatLng(50.240281, 28.633952);
+      			var chernovci =new google.maps.LatLng(48.331213, 25.931352);
+      			var vinnica =new google.maps.LatLng(49.232785, 28.468797);
+      			var cherkasi =new google.maps.LatLng(49.445371, 32.060796);
+      			var kirovograd =new google.maps.LatLng(48.507373, 32.265099);
+      			var krivoy =new google.maps.LatLng(47.907941, 33.374722);
+      			var nikolayev =new google.maps.LatLng(46.974693, 31.996315);
+      			var xerson =new google.maps.LatLng(46.634924, 32.616865);
+      			var odessa =new google.maps.LatLng(46.483062, 30.716585);
+      			var zapor =new google.maps.LatLng(47.838136, 35.135409);
+      			var dnepr =new google.maps.LatLng(48.463579, 35.033994);
+      			var kremenchug =new google.maps.LatLng(49.064493, 33.406909);
+      			var donetsk =new google.maps.LatLng(49.064493, 33.406909);
+      			var mariupol =new google.maps.LatLng(49.064493, 33.406909);
+        		var uluru = {lat:49.320611, lng: 32.479236};
+        		var map = new google.maps.Map(document.getElementById('map'), {
+        			scrollwheel:false,
+          			zoom:6,
+          			center: uluru,
+          			styles:[
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#212121"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#212121"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.country",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.locality",
+    "stylers": [
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.locality",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#bdbdbd"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.province",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.business",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#181818"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#1b1b1b"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#2c2c2c"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#8a8a8a"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#373737"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#3c3c3c"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway.controlled_access",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#4e4e4e"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#000000"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#3d3d3d"
+      }
+    ]
+  }
+]
+        			});
+        		var markerImage = new google.maps.MarkerImage(
+    				'images/marker.png',
+    				new google.maps.Size(33,33),
+    				new google.maps.Point(0,0),
+    				new google.maps.Point(13,45)
+    				);
+        		var marker = new google.maps.Marker({
+          			position: kharkiv,
+          			map: map,
+          			icon: markerImage
+        		});
+        		var marker = new google.maps.Marker({
+        			position:poltava,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:chernigov,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:summi,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:lugansk,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:kiev,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:lvov,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:zhitomir,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:chernovci,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:vinnica,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:cherkasi,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:kirovograd,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:krivoy,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:nikolayev,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:xerson,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:odessa,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:zapor,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:dnepr,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:kremenchug,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:donetsk,
+        			map:map,
+        			icon: markerImage
+				});
+				var marker = new google.maps.Marker({
+        			position:mariupol,
+        			map:map,
+        			icon: markerImage
+				});
+      		}
+    	</script>
+    	<script async defer
+    		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs65Tt_xxL30GesUVtw1GqSOYgQScSwvo&callback=initMap">
+    	</script>
+	</div>
+	<footer>
+		<div class="container-fluid fonfoot">
+			<div class="container niz">
+				<img src="images/logo.png" alt="logo" class="col-xs-12 col-md-4">
+				<div class="col-xs-12 col-md-offset-1 col-md-3"  id="adr"> 
+					<p><a href="#" id="telsprt"></a>sales@brother-hood.com.ua</p>
+					<p>ст. м “Либідська”</p>
+					<p>м. Київ, вул. К. Малевича, 86 І</p>
+				</div>
+				<div class="col-xs-12 col-md-4" id="tel">
+					<p class="col-xs-12"><a href="#" id="mailsprt"></a>Замовити зворотнiй дзвiнок</p>
+					<p class="col-xs-12">+38 (050) <span>317-64-44</span></p>
+					<p class="col-xs-12">+38 (067) <span>325-57-53</span></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
