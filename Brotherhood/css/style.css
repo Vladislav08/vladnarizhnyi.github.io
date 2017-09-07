@@ -1,0 +1,887 @@
+@font-face {
+		font-family: "CG";
+		src: url("../fonts/CenturyGothicRegular/CenturyGothic.eot");
+		src: url("../fonts/CenturyGothicRegular/CenturyGothic.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/CenturyGothicRegular/CenturyGothic.woff") format("woff"),
+		url("../fonts/CenturyGothicRegular/CenturyGothic.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+	}
+
+body{
+	font-family: "CG";
+}
+
+.social{
+	position: fixed;
+	left: 96%;
+	top: 50%;
+	z-index: 2;
+}
+
+.social>li{
+	list-style-type: none;
+	width: 20px;
+}
+
+.social>li>span{
+	display: none;
+	top: 1%;
+	right:30%;
+	width: 235px;
+	height: 37px;
+	position: absolute;
+	background-color: #111111;
+	color: #fbc620;
+	font-size: 16px;
+	padding-top: 6px;
+}
+
+.social>li+li>span{
+	display: none;
+	top: 35%;
+	right:30%;
+	width: 215px;
+	height: 37px;
+	position: absolute;
+	background-color: #111111;
+	color: #fbc620;
+	font-size: 16px;
+	padding-top: 6px;
+}
+
+.social>li+li+li>span{
+	display: none;
+	top: 70%;
+	right:30%;
+	width: 215px;
+	height: 37px;
+	position: absolute;
+	background-color: #111111;
+	color: #fbc620;
+	font-size: 16px;
+	padding-top: 6px;
+}
+
+.social>li:hover>span{
+	display: inline-block;
+	z-index: 4;
+}
+
+.social>li>a{
+	background: url(../images/sprt.png);
+	height: 42px;
+	width: 37px;
+	display: inline-block;
+	background-position: 76px;
+	z-index: 5;
+	position: relative;
+}
+
+.social>li+li>a{
+	background-position: 121px;
+}
+
+.social>li+li+li>a{
+	background-position: 165px;
+}
+header{
+	background: black;
+	padding-top: 8px;
+}
+.logo{
+	background: url(../images/fon_shapka.jpg);
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.logo>div>ul{
+	list-style-type: none;
+}
+
+.logo>div>a>img{
+	margin-top: 7px;
+	margin-bottom: 8px;
+}
+.lang{
+	display: inline-block;
+}
+.lang>li>a{
+	background: black;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+}
+.lang>li{
+	display: inline-block;
+}
+.lang>li:hover>a{
+	color: #fcb31e;
+}
+.basket{
+	border:1px solid #111111;
+	margin-top: 19px;
+	padding: 5px;
+	text-align: center;
+}
+.basket>div{
+	text-decoration: none;
+	color: #fbb21d;
+	font-size: 18px;
+	display: inline-block;
+}
+.basket>div>span{
+	font-weight: 800;
+}
+.sprite{
+background: url(../images/sprt.png);
+text-align:center;
+width: 38px;
+height: 50px;
+background-position: 38px;
+display: inline-block;
+vertical-align: middle;
+}
+.head-menu{
+	background: #111111;
+}
+#menu{
+	padding: 0
+}
+#menu>li{
+	padding:0 1px;
+}
+#menu>li:hover>a{
+	color: black;
+	background: #fbc620;
+}
+#menu>li>a{
+	background: #111111;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.navka{
+	background: #111111;
+}
+#nav{
+	background: #111111
+}
+
+.menu{
+	margin: 0;
+	border: 0;
+}
+
+.menu>div+div{
+	padding: 0;
+}
+.knopka-nav{
+	margin-right: 43%;
+}
+
+.knopka{
+	text-align: center;
+}
+
+.navigat{
+	border: 0;
+	font-size: 24px;
+	text-transform: uppercase;
+
+}
+
+.navigat>li{
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.navigat>li>a{
+	color: #785e5e;
+	border-color: #785e5e;
+	border-radius: 0;
+	background: transparent;
+}
+
+.navigat>li.active>a{
+	background: transparent;
+	color: #537fa6;
+	border-color: #537fa6;
+	border-radius: 0;
+}
+.navigat>li:hover.active>a{
+	background: transparent;
+	color: #537fa6;
+	border-color: #537fa6;
+}
+
+.navigat>li.active>a:focus{
+	background: transparent;
+	color: #537fa6;
+	border-color: #537fa6;
+	border-radius: 0;
+}
+
+.navigat>li:hover>a{
+	border-radius: 0;
+	border-color: #fbc620;
+	color: #fbc620;
+	background: transparent;
+}
+
+.tact{
+	background: url(../images/fon_tabs.jpg);
+	background-size: cover;
+
+}
+.man{
+	background:;
+}
+
+.sold{
+	display: inline-block;
+	margin-top: 50px;
+}
+.text{
+	margin-top: 60px;
+}
+
+.text>p{
+	font-size: 34px;
+	text-transform: uppercase;
+	color: white;
+}
+.text>p+p{
+	margin-top: 20px;
+	font-size: 44px;
+	color: black;
+	font-weight: 800;
+}
+.text>p+p+p{
+	margin-top: 40px;
+	font-size: 16px;
+	font-weight: 100;
+
+}
+.text>p+p+p>span{
+	font-weight: 800;
+}
+.text>a{
+	margin-bottom: 245px;
+}
+
+@media (max-width: 450px) {
+    .tact {
+      background: #fac520;
+    }
+}
+.galka>div>span{
+	background: url(../images/sprt.png);
+	width: 40px;
+	height: 40px;
+	background-position: 248px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.galka>div{
+	font-weight: 800;
+	color: black;
+	margin-top: 9px;
+}
+.galka>div:first-child{
+	margin-top: 30px;
+}
+.galka>div:last-child{
+	margin-bottom: 53px;
+}
+.catalog{
+	color: black;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-decoration:none;
+}
+.text>a:before{
+	content:"перейти до каталогу   .";
+	border-bottom:5px solid white;
+}
+.text>a:after{
+content:"";
+background: transparent;
+height: 30px;
+width: 30px;
+border-top:8px solid white; 
+border-right:8px solid white ;
+position: absolute;
+left: 172px;
+bottom: 3px;
+display: inline-block;
+transform: rotate(45deg);
+}
+
+.tkan{
+background: url(../images/tkan.jpg);
+
+}
+
+.tkan>div>h3{
+	border-bottom: 2px solid #111111;
+	text-align: center;
+	font-size: 44px;
+	text-transform: uppercase;
+	color: white;
+}
+.tkan>div>p{
+	font-size: 34px;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 40px;
+}
+.tkan>div>p>span{
+	font-weight: 800;
+	color: #f6ae1c;
+	text-transform: uppercase;
+}
+.tkan>div>p+p+p>span{
+	font-size: 20px;
+	font-weight: 100;
+}
+.tkan>div>p+p{
+	text-transform: none;
+	font-size: 18px;
+
+}
+.tkan>div>p+p+p+p{
+	text-transform: uppercase;
+	color: #f6ae1c;
+	font-size: 20px;
+}
+
+.rightcar{
+background: transparent;
+height: 30px;
+width: 30px;
+border-top:2px solid #1e1e1e; 
+border-right:2px solid #1e1e1e ;
+transform: rotate(45deg);
+display: inline-block;
+position: absolute;
+top: 50%;
+right:55%;
+}
+
+.leftcar{
+background: transparent;
+height: 30px;
+width: 30px;
+border-top:2px solid #1e1e1e; 
+border-right:2px solid #1e1e1e ;
+transform: rotate(225deg);
+display: inline-block;
+position: absolute;
+top: 50%;
+left:55%;
+}
+
+.cwet>p{
+	font-size: 20px;
+	color: #f6ae1c;
+	margin-bottom: 20px;
+}
+
+.carcont>h3{
+	margin-top: 60px;
+}
+.cwet>ul>li{
+	background: url(../images/spr2.png);
+	display: inline-block;
+	height: 105px;
+	width: 110px;
+}
+.cwet>ul>li+li{
+	background-position: 109px;
+}
+.cwet>ul>li+li+li{
+	background-position: 231px;
+}
+.cwet>ul>li+li+li+li{
+	background-position: 355px;
+}
+.cwet>ul>li+li+li+li+li{
+	background-position: 481px;
+}
+.cwet>ul>li+li+li+li+li+li{
+	background-position: 606px;
+}
+
+.carcont>div>a{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.carcont>div>a:before{
+	content:"перейти до каталогу   .";
+	color: #fbb21d;
+	border-bottom:5px solid #fbb21d;
+}
+.carcont>div>a:after{
+	content:"";
+	background: transparent;
+	height: 30px;
+	width: 30px;
+	border-top:8px solid #fbb21d; 
+	border-right:8px solid #fbb21d ;
+	position: absolute;
+	left: 172px;
+	bottom: 3px;
+	display: inline-block;
+	transform: rotate(45deg);
+}
+/*ЯК МИ ПРАЦЮЕМО*/
+
+.rabota>h3{
+	text-align: center;
+	font-size: 44px;
+	color: black;
+	font-weight: 800;
+	border-bottom: 1px solid #fbb21d;
+}
+
+
+.rabota{
+	position: relative;
+}
+#krest{
+    position: absolute;
+    top: 130px;
+    left: 384px;
+    width: 1px;
+    height: 675px;
+    background: #fbb21d;
+}
+#krest:after{
+    content: "";
+    position: absolute;
+    top: 295px;
+    left: -370px;
+    width: 1157px;
+    height: 1px;
+    background: #fbb21d;
+}
+
+.rabota>p{
+	font-size: 20px;
+}
+.rabota>p+p{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+.rabota>p+p>span{
+	color: #fbc620;
+	font-weight: 800;
+}
+
+@media (min-width: 760px) {
+	.galka2>div>div{
+		margin-top: 10px;
+	}
+}
+
+
+@media (min-width: 991px) {
+    .rabota>p{
+     margin-top: 300px;
+	display: inline-block;
+	font-weight: 800;
+	font-size: 34px;
+    }
+    .rabota>p+p{
+	font-size: 34px;
+    }
+    .galka2>div:last-child{
+	margin-bottom: 190px;
+}
+
+
+}
+.rabota>img{
+	position: absolute;
+	top: 85px;
+	z-index: 2;
+}
+
+@media (max-width: 991px){
+	.galka2>div:last-child{
+	margin-bottom: 20px;
+	}
+}
+
+@media (min-width:991px) and (max-width:1199px){
+	#krest{
+		height: 60%;
+		left: 332px;
+	}
+	#krest:after{
+		left: -349px;
+		width: 995px;
+	}
+	.rabota>img{
+		height: 45%;
+		top: 140px;
+    	left: 50px;
+	}
+}
+
+
+/*ЯК ПРАЦЮЕМО*/
+.praca{
+	margin-top: 85px;
+	border: 45px solid transparent;
+	box-shadow: 0px 0px 0px 1px #fbb21d;
+}
+
+.galka2>div>span{
+	background: url(../images/sprt.png);
+	width: 40px;
+	height: 40px;
+	background-position: 208px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.galka2>div{
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+
+
+.grbg{
+	background: #f2f2f2;
+}
+
+.stvor{
+	position: relative;
+}
+
+.stvor>p{
+	display: inline-block;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.stvor>p>span{
+	color: #fbc620;
+	font-weight: 800;
+}
+.stvor>p+p{
+	display: inline-block;
+	font-weight:100;
+}
+.stvor>img{
+	z-index: 2;
+	position: absolute;
+	top:10px ;
+	left: 40px;
+}
+
+#krest2{
+    position: absolute;
+    top: 170px;
+    left: 800px;
+    width: 1px;
+    height: 675px;
+    background: #fbb21d;
+    z-index: 1;
+}
+
+#krest2:after{
+	content: "";
+    position: absolute;
+    top: 300px;
+    left: -783px;
+    width: 1157px;
+    height: 1px;
+    background: #fbb21d;
+}
+
+.secondcircle{
+	border: 45px solid transparent;
+    box-shadow: 0px 0px 0px 1px #fbb21d;
+    margin-top:200px;
+}
+
+
+@media (min-width: 991px) {
+	.stvor>p{
+	font-size: 34px;
+	margin-top: 415px;
+	}
+	.galka3{
+	margin-top: 80px;
+	margin-bottom: 210px;
+	}
+}
+
+
+
+.galka3>div>span{
+	background: url(../images/sprt.png);
+	width: 40px;
+	height: 40px;
+	background-position: 208px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.galka3>div{
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+@media (min-width:991px) and (max-width:1199px){
+	.stvor>img{
+		height: 45%;
+		top: 69px;
+    	left: 93px;
+	}
+	#krest2:after{
+		width: 1045px;
+	    top: 290px;
+	}
+	#krest2{
+		height: 62%;
+	    left: 710px;
+	    top: 175px;
+	}
+}
+
+/*ТЕСТУВАННЯ*/
+.test>h3{
+	text-align: center;
+	font-size: 44px;
+	color: black;
+	font-weight: 800;
+	border-bottom: 1px solid #fbb21d;
+}
+
+.galka4{
+	margin-top: 18px;
+}
+
+.galka4>div>span{
+	background: url(../images/sprt.png);
+	width: 40px;
+	height: 40px;
+	background-position: 208px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.galka4>div>span+span{
+	padding-left: 10px;
+}
+
+.galka4>div{
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.test{
+	position: relative;
+}
+#krest3{
+    position: absolute;
+    top: 130px;
+    left: 384px;
+    width: 1px;
+    height: 705px;
+    background: #fbb21d;
+}
+#krest3:after{
+    content: "";
+    position: absolute;
+    top: 345px;
+    left: -370px;
+    width: 1157px;
+    height: 1px;
+    background: #fbb21d;
+}
+
+.test>p{
+	font-size: 20px;
+}
+.test>p+p{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+.test>p+p>span{
+	color: #fbc620;
+	font-weight: 800;
+}
+
+@media (min-width: 991px) {
+    .test>p{
+     margin-top: 426px;
+	display: inline-block;
+	font-weight: 800;
+	font-size: 34px;
+    }
+    .test>p+p{
+	font-size: 34px;
+    }
+    .galka4>div:last-child{
+	margin-bottom: 250px;
+}
+}
+.test>img{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	z-index: 2;
+}
+
+@media (max-width: 991px){
+	.galka4>div:last-child{
+	margin-bottom: 20px;
+	}
+}
+
+@media (min-width:991px) and (max-width:1199px){
+	#krest3{
+		height: 60%;
+    	left: 310px;
+    	top: 170px;
+	}
+	#krest3:after{
+		left: -349px;
+		width: 995px;
+		top: 310px;
+	}
+	.test>img{
+		height: 45%;
+		top: 65px;
+    	left: 17px;
+	}
+	.test>p+p{
+		font-size: 27px;
+	}
+
+}
+
+	.testimage{
+	margin-top: 202px;
+    border: 45px solid transparent;
+    box-shadow: 0px 0px 0px 1px #fbb21d;
+	}
+
+	#map {
+        width: 100%;
+        height:665px;
+        background-color: grey;
+      }
+
+    .no-pad{
+    	padding: 0;
+    	margin: 0;
+    }
+
+    .karta>h3{
+    	text-transform: uppercase;
+    	color: white;
+    	border-bottom: 1px solid white;
+    	text-align: center;
+    }
+
+    .bgkart{
+    	background: #1e1e1e;
+    	float: none;
+    }
+
+	footer{
+		background: black;
+	}
+	.niz>div{
+		display: inline-block;
+	}
+
+	.fonfoot{
+		background: url(../images/fon_shapka.jpg);
+	}
+
+	.niz{
+		margin-top: 10px;
+	}
+
+	#adr>p{
+		color: #fcc721;
+		font-size: 16px;
+	}
+	#adr>p+p{
+		margin-top: 40px;
+	}
+
+	#adr>p+p+p{
+	margin-top: 12px;
+	}
+
+	#telsprt{
+		background: url(../images/sprt.png);
+		width: 40px;
+		height: 40px;
+		background-position: 413px;
+		display: inline-block;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+	
+	#tel>p{
+		color: white;
+		font-size: 15px;
+		padding: 0;
+	}
+	#tel>p+p{
+		font-size: 21px;
+	}
+	#tel>p+p+p{
+		font-size: 21px;
+	}
+	#mailsprt{
+		background: url(../images/sprt.png);
+		width: 40px;
+		height: 40px;
+		background-position: 326px;
+		display: inline-block;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+
+	#mailsprt{
+		background: url(../images/sprt.png);
+		width: 40px;
+		height: 40px;
+		background-position: 326px;
+		display: inline-block;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+
+	#tel>p+p>span{
+		color: #fcc721;
+		font-size: 28px;
+		text-align: center;
+		font-weight: 600;
+	}
+
+/*	#tel>p{
+		margin:0;
+	}*/
+
+	@media (max-width: 450px) {
+
+}
